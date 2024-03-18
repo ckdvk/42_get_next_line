@@ -1,0 +1,135 @@
+Error in test 1: get_next_line(5: "read_error.txt"): expected: "aaaaaaaaaa\n", got: "25:     TEST(1, print(" %#x ", 0));\n"
+Error in test 2: get_next_line(5: "read_error.txt"): expected: "bbbbbbbbbb\n", got: "49:     TEST(25, print(" %#x ", LONG_MIN));\n"
+Error in test 4: get_next_line(5: "read_error.txt"): expected: "aaaaaaaaaa\n", got: "25:     TEST(1, print(" %#x ", 0));\n"
+Error in test 5: get_next_line(5: "read_error.txt"): expected: "bbbbbbbbbb\n", got: "49:     TEST(25, print(" %#x ", LONG_MIN));\n"
+Error in test 6: get_next_line(5: "read_error.txt"): expected: "cccccccccc\n", got: "53:     TEST(29, pri[...]LONG_MAX, 0, -42));\n"(114 characters)
+Error in test 7: get_next_line(5: "read_error.txt"): expected: "dddddddddd\n", got: "56:     TEST(31, print(" %#X ", 0));\n"
+Error in test 8: get_next_line(5: "read_error.txt"): expected: <NULL>, got: "80:     TEST(55, print(" %#X ", LONG_MIN));\n"
+Probable reason: You should clear the static buffer when a call to read returns -1
+Error in test 1: get_next_line(5: "read_error.txt"): expected: "aaaaaaaaaa\n", got: "25:     TEST(1, print(" %#x ", 0));\n"
+Error in test 2: get_next_line(5: "read_error.txt"): expected: "bbbbbbbbbb\n", got: "49:     TEST(25, print(" %#x ", LONG_MIN));\n"
+Error in test 4: get_next_line(5: "read_error.txt"): expected: "aaaaaaaaaa\n", got: "25:     TEST(1, print(" %#x ", 0));\n"
+Error in test 5: get_next_line(5: "read_error.txt"): expected: "bbbbbbbbbb\n", got: "49:     TEST(25, print(" %#x ", LONG_MIN));\n"
+Error in test 6: get_next_line(5: "read_error.txt"): expected: "cccccccccc\n", got: "53:     TEST(29, pri[...]LONG_MAX, 0, -42));\n"(114 characters)
+Error in test 7: get_next_line(5: "read_error.txt"): expected: "dddddddddd\n", got: "56:     TEST(31, print(" %#X ", 0));\n"
+Error in test 8: get_next_line(5: "read_error.txt"): expected: <NULL>, got: "80:     TEST(55, print(" %#X ", LONG_MIN));\n"
+Probable reason: You should clear the static buffer when a call to read returns -1
+Error in test 9: get_next_line(5: "read_error.txt"): 
+Memory leak: 0x602000000390 - 6 bytes
+You failed to free the memory allocated at:
+     in _add_malloc malloc_mock.c:29:8
+     in malloc malloc_mock.c:75:10
+  -> in ft_substr get_next_line_utils.c:81:9
+     in update_remainder get_next_line.c:91:16
+     in get_next_line get_next_line.c:32:2
+     in test_gnl_func file_utils.c:40:8
+     in main tester.c:193:2
+
+Error in test 1: get_next_line(5: "read_error.txt"): expected: "aaaaaaaaaa\n", got: "25:     TEST(1, print(" %#x ", 0));\n"
+Error in test 2: get_next_line(5: "read_error.txt"): expected: "bbbbbbbbbb\n", got: "49:     TEST(25, print(" %#x ", LONG_MIN));\n"
+Error in test 4: get_next_line(5: "read_error.txt"): expected: "aaaaaaaaaa\n", got: "25:     TEST(1, print(" %#x ", 0));\n"
+Error in test 5: get_next_line(5: "read_error.txt"): expected: "bbbbbbbbbb\n", got: "49:     TEST(25, print(" %#x ", LONG_MIN));\n"
+Error in test 6: get_next_line(5: "read_error.txt"): expected: "cccccccccc\n", got: "53:     TEST(29, pri[...]LONG_MAX, 0, -42));\n"(114 characters)
+Error in test 7: get_next_line(5: "read_error.txt"): expected: "dddddddddd\n", got: "56:     TEST(31, print(" %#X ", 0));\n"
+Error in test 8: get_next_line(5: "read_error.txt"): expected: <NULL>, got: "80:     TEST(55, print(" %#X ", LONG_MIN));\n"
+Probable reason: You should clear the static buffer when a call to read returns -1
+Error in test 9: get_next_line(5: "read_error.txt"): 
+Memory leak: 0x60c000000400 - 114 bytes
+You failed to free the memory allocated at:
+     in _add_malloc malloc_mock.c:29:8
+     in malloc malloc_mock.c:75:10
+  -> in ft_substr get_next_line_utils.c:81:9
+     in update_remainder get_next_line.c:91:16
+     in get_next_line get_next_line.c:32:2
+     in test_gnl_func file_utils.c:40:8
+     in main tester.c:193:2
+
+Error in test 1: get_next_line(5: "read_error.txt"): expected: "aaaaaaaaaa\n", got: "25:     TEST(1, print(" %#x ", 0));\n"
+Error in test 2: get_next_line(5: "read_error.txt"): expected: "bbbbbbbbbb\n", got: "49:     TEST(25, print(" %#x ", LONG_MIN));\n"
+Error in test 4: get_next_line(5: "read_error.txt"): expected: "aaaaaaaaaa\n", got: "25:     TEST(1, print(" %#x ", 0));\n"
+Error in test 5: get_next_line(5: "read_error.txt"): expected: "bbbbbbbbbb\n", got: "49:     TEST(25, print(" %#x ", LONG_MIN));\n"
+Error in test 6: get_next_line(5: "read_error.txt"): expected: "cccccccccc\n", got: "53:     TEST(29, pri[...]LONG_MAX, 0, -42));\n"(114 characters)
+Error in test 7: get_next_line(5: "read_error.txt"): expected: "dddddddddd\n", got: "56:     TEST(31, print(" %#X ", 0));\n"
+Error in test 8: get_next_line(5: "read_error.txt"): expected: <NULL>, got: "80:     TEST(55, print(" %#X ", LONG_MIN));\n"
+Probable reason: You should clear the static buffer when a call to read returns -1
+Error in test 1: get_next_line(5: "read_error.txt"): expected: "aaaaaaaaaa\n", got: "25:     TEST(1, print(" %#x ", 0));\n"
+Error in test 2: get_next_line(5: "read_error.txt"): expected: "bbbbbbbbbb\n", got: "49:     TEST(25, print(" %#x ", LONG_MIN));\n"
+Error in test 4: get_next_line(5: "read_error.txt"): expected: "aaaaaaaaaa\n", got: "25:     TEST(1, print(" %#x ", 0));\n"
+Error in test 5: get_next_line(5: "read_error.txt"): expected: "bbbbbbbbbb\n", got: "49:     TEST(25, print(" %#x ", LONG_MIN));\n"
+Error in test 6: get_next_line(5: "read_error.txt"): expected: "cccccccccc\n", got: "53:     TEST(29, pri[...]LONG_MAX, 0, -42));\n"(114 characters)
+Error in test 7: get_next_line(5: "read_error.txt"): expected: "dddddddddd\n", got: "56:     TEST(31, print(" %#X ", 0));\n"
+Error in test 8: get_next_line(5: "read_error.txt"): expected: <NULL>, got: "80:     TEST(55, print(" %#X ", LONG_MIN));\n"
+Probable reason: You should clear the static buffer when a call to read returns -1
+Error in test 9: get_next_line(5: "read_error.txt"): 
+Memory leak: 0x602000000390 - 6 bytes
+You failed to free the memory allocated at:
+     in _add_malloc malloc_mock.c:29:8
+     in malloc malloc_mock.c:75:10
+  -> in ft_substr get_next_line_utils_bonus.c:99:6
+     in update_remainder get_next_line_bonus.c:91:16
+     in get_next_line get_next_line_bonus.c:32:2
+     in test_gnl_func file_utils.c:40:8
+     in main tester.c:193:2
+
+Error in test 1: get_next_line(5: "read_error.txt"): expected: "aaaaaaaaaa\n", got: "25:     TEST(1, print(" %#x ", 0));\n"
+Error in test 2: get_next_line(5: "read_error.txt"): expected: "bbbbbbbbbb\n", got: "49:     TEST(25, print(" %#x ", LONG_MIN));\n"
+Error in test 4: get_next_line(5: "read_error.txt"): expected: "aaaaaaaaaa\n", got: "25:     TEST(1, print(" %#x ", 0));\n"
+Error in test 5: get_next_line(5: "read_error.txt"): expected: "bbbbbbbbbb\n", got: "49:     TEST(25, print(" %#x ", LONG_MIN));\n"
+Error in test 6: get_next_line(5: "read_error.txt"): expected: "cccccccccc\n", got: "53:     TEST(29, pri[...]LONG_MAX, 0, -42));\n"(114 characters)
+Error in test 7: get_next_line(5: "read_error.txt"): expected: "dddddddddd\n", got: "56:     TEST(31, print(" %#X ", 0));\n"
+Error in test 8: get_next_line(5: "read_error.txt"): expected: <NULL>, got: "80:     TEST(55, print(" %#X ", LONG_MIN));\n"
+Probable reason: You should clear the static buffer when a call to read returns -1
+Error in test 9: get_next_line(5: "read_error.txt"): 
+Memory leak: 0x60c000000400 - 114 bytes
+You failed to free the memory allocated at:
+     in _add_malloc malloc_mock.c:29:8
+     in malloc malloc_mock.c:75:10
+  -> in ft_substr get_next_line_utils_bonus.c:99:6
+     in update_remainder get_next_line_bonus.c:91:16
+     in get_next_line get_next_line_bonus.c:32:2
+     in test_gnl_func file_utils.c:40:8
+     in main tester.c:193:2
+
+Error in test 1: get_next_line(5: "open, error, open"): expected: "aaaaaaaaaa\n", got: "25:     TEST(1, print(" %#x ", 0));\n"
+Error in test 3: get_next_line(5: "open, error, open"): expected: "bbbbbbbbbb\n", got: "49:     TEST(25, print(" %#x ", LONG_MIN));\n"
+Error in test 7: get_next_line(5: "open, error, open"): expected: "aaaaaaaaaa\n", got: "25:     TEST(1, print(" %#x ", 0));\n"
+Error in test 9: get_next_line(5: "open, error, open"): expected: "bbbbbbbbbb\n", got: "49:     TEST(25, print(" %#x ", LONG_MIN));\n"
+Error in test 10: get_next_line(5: "open, error, open"): expected: "cccccccccc\n", got: "53:     TEST(29, pri[...]LONG_MAX, 0, -42));\n"(114 characters)
+Error in test 13: get_next_line(5: "open, error, open"): expected: "dddddddddd\n", got: "56:     TEST(31, print(" %#X ", 0));\n"
+Error in test 14: get_next_line(5: "open, error, open"): expected: <NULL>, got: "80:     TEST(55, print(" %#X ", LONG_MIN));\n"
+Error in test 1: get_next_line(5: "open, error, open"): expected: "aaaaaaaaaa\n", got: "25:     TEST(1, print(" %#x ", 0));\n"
+Error in test 3: get_next_line(5: "open, error, open"): expected: "bbbbbbbbbb\n", got: "49:     TEST(25, print(" %#x ", LONG_MIN));\n"
+Error in test 7: get_next_line(5: "open, error, open"): expected: "aaaaaaaaaa\n", got: "25:     TEST(1, print(" %#x ", 0));\n"
+Error in test 9: get_next_line(5: "open, error, open"): expected: "bbbbbbbbbb\n", got: "49:     TEST(25, print(" %#x ", LONG_MIN));\n"
+Error in test 10: get_next_line(5: "open, error, open"): expected: "cccccccccc\n", got: "53:     TEST(29, pri[...]LONG_MAX, 0, -42));\n"(114 characters)
+Error in test 13: get_next_line(5: "open, error, open"): expected: "dddddddddd\n", got: "56:     TEST(31, print(" %#X ", 0));\n"
+Error in test 14: get_next_line(5: "open, error, open"): expected: <NULL>, got: "80:     TEST(55, print(" %#X ", LONG_MIN));\n"
+Error in test 15: get_next_line(5: "open, error, open"): 
+Memory leak: 0x602000000590 - 6 bytes
+You failed to free the memory allocated at:
+     in _add_malloc malloc_mock.c:29:8
+     in malloc malloc_mock.c:75:10
+  -> in ft_substr get_next_line_utils_bonus.c:99:6
+     in update_remainder get_next_line_bonus.c:91:16
+     in get_next_line get_next_line_bonus.c:32:2
+     in test_gnl_func file_utils.c:40:8
+     in main bonus.c:40:2
+
+Error in test 1: get_next_line(5: "open, error, open"): expected: "aaaaaaaaaa\n", got: "25:     TEST(1, print(" %#x ", 0));\n"
+Error in test 3: get_next_line(5: "open, error, open"): expected: "bbbbbbbbbb\n", got: "49:     TEST(25, print(" %#x ", LONG_MIN));\n"
+Error in test 7: get_next_line(5: "open, error, open"): expected: "aaaaaaaaaa\n", got: "25:     TEST(1, print(" %#x ", 0));\n"
+Error in test 9: get_next_line(5: "open, error, open"): expected: "bbbbbbbbbb\n", got: "49:     TEST(25, print(" %#x ", LONG_MIN));\n"
+Error in test 10: get_next_line(5: "open, error, open"): expected: "cccccccccc\n", got: "53:     TEST(29, pri[...]LONG_MAX, 0, -42));\n"(114 characters)
+Error in test 13: get_next_line(5: "open, error, open"): expected: "dddddddddd\n", got: "56:     TEST(31, print(" %#X ", 0));\n"
+Error in test 14: get_next_line(5: "open, error, open"): expected: <NULL>, got: "80:     TEST(55, print(" %#X ", LONG_MIN));\n"
+Error in test 15: get_next_line(5: "open, error, open"): 
+Memory leak: 0x60c000000400 - 114 bytes
+You failed to free the memory allocated at:
+     in _add_malloc malloc_mock.c:29:8
+     in malloc malloc_mock.c:75:10
+  -> in ft_substr get_next_line_utils_bonus.c:99:6
+     in update_remainder get_next_line_bonus.c:91:16
+     in get_next_line get_next_line_bonus.c:32:2
+     in test_gnl_func file_utils.c:40:8
+     in main bonus.c:40:2
+
