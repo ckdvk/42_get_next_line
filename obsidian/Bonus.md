@@ -1,0 +1,6 @@
+- Usaremos **SOLO UNA VARIABLE ESTÁTICA** .
+- La función debe ser capaz de gestionar varios fd a la vez, sin perder el hilo de lectura.
+- Esto habrá que hacerlo en archivos con sufijo `_bonus`. Es decir, el bonus se entrega en los archivos 
+	- get_next_line_bonus.c
+	- get_next_line_bonus.h
+	- get_next_line_utils_bonus.c

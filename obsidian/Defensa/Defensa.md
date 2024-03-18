@@ -1,0 +1,1 @@
+¿Funciona correctamente tu `get_next_line` si el `BUFFER_SIZE` es `9999`? ¿Y si es `1`? ¿Qué tal con `10000000`? ¿Sabes por qué?

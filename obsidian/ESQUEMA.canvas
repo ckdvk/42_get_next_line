@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"7a729085800ea769","type":"group","x":1500,"y":-720,"width":1180,"height":3700,"label":"Solución"},
+		{"id":"9616a89b2bd0f480","type":"file","file":"Estrategia de la solución.md","x":1581,"y":-700,"width":1019,"height":490,"color":"3"},
+		{"id":"78d2050de1f960c5","type":"text","text":"Intenta leer lo menos posible cada vez que se llame a `get_next_line().` Si encuentras un salto de línea, deberás devolver la línea actual. No leas el archivo entero y luego proceses cada línea\n\nCuando hagas los ejercicios, recuerda: 1) Tanto el tamaño del buffer como el de la línea pueden tener valores muy diferentes. 2) Un fd no solo apunta a archivos normales. Sé inteligente y compara y verifica tus ejercicios con tus compañeros. Prepara una batería de pruebas de cara a la evaluación.","x":540,"y":-810,"width":400,"height":360,"color":"#0055ff"},
+		{"id":"02780e65ffc39635","type":"file","file":"Requirements.md","x":-300,"y":-340,"width":660,"height":1039,"color":"#520000"},
+		{"id":"a7ad2a1a47662a84","type":"file","file":"Defensa/Defensa.md","x":-210,"y":800,"width":480,"height":160,"color":"4"},
+		{"id":"964261662919deea","type":"text","text":"# PROHIBIDO\n- No se permite la utilización de tu `libft` en este proyecto. \n- Se prohibe la utilización de `lseek` \n- Se prohibe la utilización de ***variables globales***.","x":-900,"y":-370,"width":500,"height":210,"color":"#6f0101"},
+		{"id":"8979fa60eb79708d","type":"text","text":"# WARNING\n\nDebemos ser capaces de compilar este proyecto con y sin el flag `-D BUFFER_SIZE`, junto a los flags habituales. Puedes elegir el valor por defecto que prefieras.\n\n","x":-400,"y":-1030,"width":430,"height":190,"color":"2"},
+		{"id":"30bcea64f07c1d52","type":"file","file":"Bonus.md","x":1581,"y":-140,"width":1019,"height":320,"color":"#ee00ff"},
+		{"id":"0390e35c5f77bc0b","x":1581,"y":280,"width":1019,"height":2440,"color":"4","type":"file","file":"Solución.md"},
+		{"id":"6c658af140c821b7","type":"file","file":"Sobre los File descriptors.md","x":443,"y":1031,"width":595,"height":939},
+		{"id":"98e04c96b871cb15","x":1965,"y":2791,"width":455,"height":129,"color":"1","type":"text","text":"Como no se permite usar `libft`, las funciones auxiliares pertinentes (casi todas ellas contenidas en `libft`) se han añadido en `get_next_line_utils.c`."},
+		{"id":"0a5721f3682f9e35","x":-1060,"y":791,"width":670,"height":1829,"type":"file","file":"Sobre las variables estáticas en C.md"}
+	],
+	"edges":[
+		{"id":"7f446307dcf980d9","fromNode":"02780e65ffc39635","fromSide":"left","toNode":"964261662919deea","toSide":"bottom"},
+		{"id":"e5c42be768eb8ee1","fromNode":"02780e65ffc39635","fromSide":"top","toNode":"8979fa60eb79708d","toSide":"bottom"},
+		{"id":"4bff2915c312ba64","fromNode":"02780e65ffc39635","fromSide":"top","toNode":"78d2050de1f960c5","toSide":"bottom"},
+		{"id":"22b9dda2bee1bf86","fromNode":"02780e65ffc39635","fromSide":"right","toNode":"6c658af140c821b7","toSide":"top"},
+		{"id":"0ea231db53ee2633","fromNode":"02780e65ffc39635","fromSide":"right","toNode":"7a729085800ea769","toSide":"left"},
+		{"id":"ef128bd2b7c51373","fromNode":"9616a89b2bd0f480","fromSide":"bottom","toNode":"30bcea64f07c1d52","toSide":"top"},
+		{"id":"5d5c3963dcc7e872","fromNode":"30bcea64f07c1d52","fromSide":"bottom","toNode":"0390e35c5f77bc0b","toSide":"top"},
+		{"id":"01c95f538b4f9155","fromNode":"0390e35c5f77bc0b","fromSide":"bottom","toNode":"98e04c96b871cb15","toSide":"top"},
+		{"id":"17c9f87ea7b64332","fromNode":"02780e65ffc39635","fromSide":"left","toNode":"0a5721f3682f9e35","toSide":"top"}
+	]
+}

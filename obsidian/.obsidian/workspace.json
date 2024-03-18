@@ -1,0 +1,162 @@
+{
+  "main": {
+    "id": "8597f6fa28bcdcc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "73c40ee502358f4f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c73c17c4a0b23bcd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Defensa/Defensa.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4b782552ce28d630",
+    "type": "split",
+    "children": [
+      {
+        "id": "61bf782d866805a1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5fc436efc51c2ad4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b2fda1e3cce051eb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8b8049ce3f248b9e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0ad835cec3071fe1",
+    "type": "split",
+    "children": [
+      {
+        "id": "63c3cf2b6bc552d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f58e1cf16e721a0b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Defensa/Defensa.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1b5c88856ab3c877",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Defensa/Defensa.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d9c87ef3c976cce1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a8db70a3ea74eebe",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Defensa/Defensa.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "c73c17c4a0b23bcd",
+  "lastOpenFiles": [
+    "Bonus.md",
+    "ESQUEMA.canvas",
+    "Estrategia de la solución.md",
+    "Requirements.md",
+    "Sobre las variables estáticas en C.md",
+    "Solución.md",
+    "Sobre los File descriptors.md",
+    "Defensa/Defensa.md",
+    "Defensa",
+    "Welcome.md"
+  ]
+}
